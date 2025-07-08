@@ -1,84 +1,45 @@
+<!-- Hydra King Portfolio: index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bharanitharan | Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0f172a;
-      color: #f8fafc;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #1e293b;
-      text-align: center;
-      padding: 2rem;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.1rem;
-      margin-top: 0.5rem;
-    }
-    section {
-      padding: 2rem;
-    }
-    .project {
-      background: #1e293b;
-      padding: 1.5rem;
-      border-radius: 12px;
-      margin-bottom: 2rem;
-    }
-    .project h3 {
-      margin-top: 0;
-    }
-    .button {
-      background-color: #2563eb;
-      color: white;
-      padding: 0.5rem 1rem;
-      text-decoration: none;
-      border-radius: 6px;
-      display: inline-block;
-      margin-top: 1rem;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hydra King Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
 </head>
 <body>
+  <div id="particles-js"></div>
   <header>
-    <h1>Bharanitharan D</h1>
-    <p>Aspiring AI Developer | Web Designer | Tech Explorer</p>
+    <div class="container">
+      <h1 class="logo">Hydra King</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><button id="modeToggle">🌗 Toggle</button></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section>
-    <h2>Projects</h2>
-
-    <div class="project">
-      <h3>🧠 Mini Valar AI Assistant</h3>
-      <p><strong>Technologies:</strong> Python, HTML, CSS, JavaScript</p>
-      <p><strong>Role:</strong> Solo Developer | Project Owner</p>
-
-      <p>
-        The Mini Valar AI Assistant is a fully offline, personal AI system I developed from scratch using only the core technologies listed in my resume. 
-        It simulates intelligent interaction, emotional response, and basic assistant functionalities, all in a lightweight and customizable architecture. 
-        The project is 100% open source, built using clean, beginner-friendly code with complete transparency and modularity.
-      </p>
-
-      <ul>
-        <li>💬 Text command handling with emotional detection</li>
-        <li>🧠 Purely offline logic using only local libraries</li>
-        <li>🛠️ GUI built using HTML, CSS, and JavaScript</li>
-        <li>📄 Fully documented with a detailed developer guide</li>
-        <li>📂 Source code is manually written, easy to modify and learn from</li>
-      </ul>
-
-      <!-- This link will be updated with real doc link -->
-      <a href="#doc-link" class="button">📄 View Documentation</a>
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm <span>Hydra King Bharani</span></h2>
+      <p><span id="typed"></span></p>
+      <a href="assets/resume.pdf" download class="btn">📄 Download Resume</a>
     </div>
   </section>
+
+  <a href="contact.html" class="hire-badge">💼 Hire Me</a>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
+
+<!-- Additional pages: about.html, projects.html, contact.html -->
+<!-- CSS: css/style.css -->
+<!-- JS: js/main.js -->
