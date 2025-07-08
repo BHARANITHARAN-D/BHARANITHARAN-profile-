@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Hydra King</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Hydra King</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><button id="modeToggle">🌗 Toggle</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact-section container">
+    <h2>📬 Get in Touch</h2>
+
+    <form action="https://formsubmit.co/your-email@gmail.com" method="POST" class="contact-form">
+      <!-- Change your-email@gmail.com to your actual email -->
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Email</button>
+    </form>
+
+    <h3>OR</h3>
+
+    <a href="https://wa.me/91XXXXXXXXXX?text=Hello%20Hydra%20King%2C%20I%20want%20to%20connect." target="_blank" class="btn">
+      💬 Message on WhatsApp
+    </a>
+
+    <div class="contact-info">
+      <h3>📇 My Contact Info</h3>
+      <p><strong>Name:</strong> Bharani (Hydra King)</p>
+      <p><strong>Email:</strong> your-email@gmail.com</p>
+      <p><strong>Phone:</strong> +91-XXXXXXXXXX</p>
+      <p><strong>Location:</strong> India</p>
+      <p><strong>Status:</strong> 🟢 Open for Freelance & Projects</p>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
